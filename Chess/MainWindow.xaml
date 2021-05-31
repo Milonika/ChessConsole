@@ -5,14 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chess"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="443" Width="428">
     <Grid Margin="0,0,10,0">
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,10,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,10,0,0" Background="White"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,10,0,0" Background="Black">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Clon Black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,10,0,0" Background="White">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Kon black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,60,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,60,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,10,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,10,0,0" Background="White"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,10,0,0" Background="Black">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Ferz black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,10,0,0" Background="White">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Korol Black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,60,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,60,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,110,0,0" Background="Black"/>
@@ -23,12 +47,36 @@
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,110,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,160,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,160,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,10,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,10,0,0" Background="White"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,10,0,0" Background="Black">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Queen Black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,10,0,0" Background="White">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Ferz black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,60,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,60,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,10,0,0" Background="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,10,0,0" Background="White"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,10,0,0" Background="Black">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Kon black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,10,0,0" Background="White">
+            <Rectangle Height="50" Stroke="Black" Width="50" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Clon Black.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,60,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,60,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,110,0,0" Background="Black"/>
@@ -49,12 +97,44 @@
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,260,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,310,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,310,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,360,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,360,0,0" Background="Black"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,360,0,0" Background="White">
+            <Rectangle Height="44" Stroke="Black" Width="44" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Clon Beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,360,0,0" Background="Black">
+            <Rectangle Height="45" Stroke="Black" Width="46" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Kon beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,310,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,310,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,360,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,360,0,0" Background="Black"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,360,0,0" Background="White">
+            <Rectangle Height="40" Stroke="Black" Width="40" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Ferz beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,360,0,0" Background="Black">
+            <Rectangle Height="44" Stroke="Black" Width="46" RenderTransformOrigin="0.5,0.5" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Korol bel.png"/>
+                </Rectangle.Fill>
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="0"/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,210,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,210,0,0" Background="White"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,260,0,0" Background="White"/>
@@ -65,12 +145,35 @@
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,260,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,310,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,310,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,360,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,360,0,0" Background="Black"/>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,360,0,0" Background="White">
+            <Rectangle Height="46" Stroke="Black" Width="46" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Queen With.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,360,0,0" Background="Black">
+            <Rectangle Height="47" Stroke="Black" Width="47" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Ferz beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,310,0,0" Background="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,310,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,360,0,0" Background="White"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,360,0,0" Background="Black"/>
-
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,360,0,0" Background="White">
+            <Rectangle Height="45" Stroke="Black" Width="45" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Kon beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,360,0,0" Background="Black">
+            <Rectangle Height="45" Stroke="Black" Width="45" StrokeThickness="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Clon Beli.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Button>
     </Grid>
 </Window>

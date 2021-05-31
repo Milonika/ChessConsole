@@ -6,4 +6,30 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Clon Beli.png" />
+    <None Remove="Clon Black.png" />
+    <None Remove="Ferz beli.png" />
+    <None Remove="Ferz black.png" />
+    <None Remove="Kon beli.png" />
+    <None Remove="Kon black.png" />
+    <None Remove="Korol bel.png" />
+    <None Remove="Korol Black.png" />
+    <None Remove="Queen Black.png" />
+    <None Remove="Queen With.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Clon Beli.png" />
+    <Resource Include="Clon Black.png" />
+    <Resource Include="Ferz beli.png" />
+    <Resource Include="Ferz black.png" />
+    <Resource Include="Kon beli.png" />
+    <Resource Include="Kon black.png" />
+    <Resource Include="Korol bel.png" />
+    <Resource Include="Korol Black.png" />
+    <Resource Include="Queen Black.png" />
+    <Resource Include="Queen With.png" />
+  </ItemGroup>
+
 </Project>
