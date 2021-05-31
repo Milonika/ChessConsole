@@ -6,7 +6,71 @@
         xmlns:local="clr-namespace:Chess"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="0,0,10,0">
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,10,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,10,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,60,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,60,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,10,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,10,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,60,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,60,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,110,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,110,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,160,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,160,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,110,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,110,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,160,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,160,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,10,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,10,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,60,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,60,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,10,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,10,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,60,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,60,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,110,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,110,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,160,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,160,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,110,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,110,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,160,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,160,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,210,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,210,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,260,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,260,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,210,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,210,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,260,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,260,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,310,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,310,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="10,360,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="60,360,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,310,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,310,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="110,360,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="160,360,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,210,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,210,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,260,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,260,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,210,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,210,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,260,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,260,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,310,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,310,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="210,360,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="260,360,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,310,0,0" Background="Black"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,310,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="310,360,0,0" Background="White"/>
+        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Height="50" Click="Button_Click" Margin="360,360,0,0" Background="Black"/>
 
     </Grid>
 </Window>
